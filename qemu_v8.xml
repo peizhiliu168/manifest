@@ -14,7 +14,7 @@
         </project>
 
         <!-- linaro-swg gits -->
-        <project path="linux"                name="peizhiliu168/linux.git"                  revision="optee" clone-depth="1" />
+        <project path="linux"                name="peizhiliu168/linux.git"                  revision="nn-optee" clone-depth="1" />
         <project path="optee_benchmark"      name="peizhiliu168/optee_benchmark.git"/>
         <project path="optee_examples"       name="peizhiliu168/optee_examples.git" />
         <project path="soc_term"             name="linaro-swg/soc_term.git" />
