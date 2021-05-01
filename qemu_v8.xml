@@ -7,7 +7,7 @@
 
         <!-- OP-TEE gits -->
         <project path="optee_client"         name="peizhiliu168/optee_client.git" />
-        <project path="optee_os"             name="peizhiliu168/optee_os.git" />
+        <project path="optee_os"             name="peizhiliu168/optee_os.git"           revision="nn-optee"/>
         <project path="optee_test"           name="peizhiliu168/optee_test.git" />
         <project path="build"                name="peizhiliu168/build.git">
                 <linkfile src="qemu_v8.mk" dest="build/Makefile" />
@@ -15,8 +15,8 @@
 
         <!-- linaro-swg gits -->
         <project path="linux"                name="peizhiliu168/linux.git"                  revision="nn-optee" clone-depth="1" />
-        <project path="optee_benchmark"      name="peizhiliu168/optee_benchmark.git"/>
-        <project path="optee_examples"       name="peizhiliu168/optee_examples.git" />
+        <project path="optee_benchmark"      name="peizhiliu168/optee_benchmark.git" />
+        <project path="optee_examples"       name="peizhiliu168/optee_examples.git"         revision="nn-optee"/>
         <project path="soc_term"             name="linaro-swg/soc_term.git" />
 
         <!-- Misc gits -->
